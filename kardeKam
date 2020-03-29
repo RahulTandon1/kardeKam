@@ -1,6 +1,13 @@
 #!/bin/bash
 
+# adding all code to git repo
 git add .
+
+# creating a commit
 git commit -m 'random message'
+
+# pushing to heroku (assumes that you've added a heroku project and have added the git remote)
 git push heroku master
+
+# pushing to github (assumes that you've added a github repo and have created the remote)
 git push -u origin master
